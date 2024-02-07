@@ -2,7 +2,7 @@ HTML Projects Repository
 
 Welcome to my HTML projects repository! This collection showcases various frontend projects where I've applied clean and thoughtful web development practices. Each project, from small and elegant designs to user-friendly interfaces, reflects my journey in the dynamic world of frontend development.
 
-Project List
+HTML Project List
 
 1. Project One
    - Description: [Brief description of Project One]
