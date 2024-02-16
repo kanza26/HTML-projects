@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Feedback Form for Engineering Faculty</title>
+    <title>FFEDBACK FORM FOR ENGINEERING FACULTY</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="logo.webp" height="200">
-    <h1><center><u>FEEDBACK FORM FOR ENGINEERING FACULTY</u></center></h1>
+    <div id="container">
+        <div id="containeritem1"></div>    
+        <div id="containeritem2">FFEDBACK FORM FOR ENGINEERING FACULTY</div>      
+    </div>
     <form>
         <label for="studentName">STUDENT NAME:</label>
         <input type="text" id="studentName">
@@ -91,9 +94,27 @@
         <label for="Disagree">Disagree</label>
 
         <input type="radio" id="Strongy disagree" name="course content"  value="Fair">
-        <label for="Strongy disagree">Strongy disagree</label><br>
-        <button type="button"> <a href="feedback_form2.html">Next</a></button>
+        <label for="Strongly disagree">Strongy disagree</label><br>
+        <p>How accessible was the faculty outside of regular class hours for additional assistance?</p>
+        <input type="radio" id=" Very Accessible" name="Accessibility" value="Very Accessible">
+        <label for="Very Accessible">Very Accessible</label>
 
+        <input type="radio" id="Accessible" name="Accessibility" value="Accessible">
+        <label for="Agree">Accessible</label>
+
+        <input type="radio" id="Some what Accessible" name="Accessibility"  value="Somewhat Accessible">
+        <label for="Some what Accessible">Some what accessible</label>
+
+        <input type="radio" id="Not accessible" name="Accessibility" value="Not accessible">
+        <label for="Not accessible">Not accessible</label>
+
+        <input type="radio" id="Not accessible at all" name="Not Accessible at all"  value="Not accessible at all">
+        <label for="Not accessible at all">Not accessible at all</label><br>
+
+        <label for="suggestion" id="suggestionlabel">Any suggestions</label>
+        <textarea id="suggestion" rows="5" cols="50"></textarea>
+        <button type="button"><a href="feedback_form2.html">Submit</a></button>
+        
     </form>
 </body>
 </html>
