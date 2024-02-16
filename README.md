@@ -5,7 +5,8 @@ This repository is a collection of my HTML and CSS explorations. As a dedicated 
 HTML Project List
 
 1.Project One: Feedback Form for Engineering Faculty
-  Description: This project is a feedback form designed specifically for students to provide valuable input on their academic experience with engineering faculty. It serves as a medium for students to express their opinions on various aspects of teaching, course materials, faculty engagement, and accessibility outside of regular class hours.
+
+   This project is a feedback form designed specifically for students to provide valuable input on their academic experience with engineering faculty. It serves as a medium for students to express their opinions on various aspects of teaching, course materials, faculty engagement, and accessibility outside of regular class hours.
   Styling:
   -Background Image: The form is styled with an antique white background overlaid with the project logo for visual appeal.
   -Container Layout: Utilizes flexbox to create a responsive and visually appealing form elements that include university logo and form heading.
