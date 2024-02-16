@@ -1,13 +1,16 @@
 HTML Projects Repository
 
-Welcome to my HTML projects repository! This collection showcases various frontend projects where I've applied clean and thoughtful web development practices. Each project, from small and elegant designs to user-friendly interfaces, reflects my journey in the dynamic world of frontend development.
+This repository is a collection of my HTML and CSS explorations. As a dedicated learner, I believe in continuous improvement through hands-on experience and constant learning. Here, you'll find my journey of learning and trying out new features as I discover them.
 
 HTML Project List
 
-1. Project One
-   - Description: [Brief description of Project One]
-   - [Link to Project One]
-
+1.Project One: Feedback Form for Engineering Faculty
+  Description: This project is a feedback form designed specifically for students to provide valuable input on their academic experience with engineering faculty. It serves as a medium for students to express their opinions on various aspects of teaching, course materials, faculty engagement, and accessibility outside of regular class hours.
+  Styling:
+  -Background Image: The form is styled with an antique white background overlaid with the project logo for visual appeal.
+  -Container Layout: Utilizes flexbox to create a responsive and visually appealing form elements that include university logo and form heading.
+  -Interactive Elements: Incorporates CSS transitions to add subtle hover effects, enhancing the user experience.
+  
 2. Project Two
    - Description: [Brief description of Project Two]
    - [Link to Project Two]
