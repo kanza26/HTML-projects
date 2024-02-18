@@ -28,23 +28,11 @@ To enhance user interaction, the project incorporates dynamic animations. The fr
 
 
 
-3. Project Three
-   - Description: [Brief description of Project Three]
-   - [Link to Project Three]
 
 
-
-To run these projects locally, follow these steps:
-
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
-2. Open the project folder: `cd your-repo`
-3. Open the HTML file in your preferred browser.
 
 
 
 If you'd like to contribute or have suggestions, feel free to open an issue or submit a pull request. Your feedback is highly appreciated!
-
-
-
 Happy coding!
 
