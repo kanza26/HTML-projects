@@ -1,0 +1,557 @@
+#header{
+    position: fixed;
+    width:1200px;
+    height:25px;
+    background-color: rgb(234, 105, 30);
+    margin-left: 0;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+#link1{
+    margin-left: 100px;
+}
+a{
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin-right: 30px;
+}
+#searchbar{
+    display: flex;
+    position: fixed;
+    width:1200px;
+    height:60px;
+    background-color: rgb(234, 105, 30);
+    margin-left: 0;
+    top:25px;
+    flex-wrap: nowrap;
+    left: 0;
+    z-index: 2;
+   
+
+}
+#darazlogo{
+    background-image: url(darazlogo.png);
+    background-size: cover;
+    width:120px;
+    height:48px;
+    margin-left: 100px;
+}
+#category{
+    display: flex;
+    height:40px;
+    width:80px;
+    color:white;
+    display:inline-block;
+    margin-left: 7px;
+    position:relative;
+    top:10px;
+}
+#Cat{
+    position: relative;
+    margin-left: 20px;
+    font-size: 13px;
+    top:12px;
+}
+#searchdiv{
+    position: relative;
+    width: 900px;
+    margin-left: 1px;
+    height: 40px;
+    top:3px;
+    display: flex;
+    
+}
+#mysearchinput{
+   position: relative;
+   width: 500px;
+   margin-left: 1px;
+   height: 30px;
+   top:10px;
+   border-radius: 10px;
+   border-color: transparent;
+}
+#searchbutton{
+    position: relative;
+    width:50px;
+    height: 28px;
+    top:15px;
+    background-color: #FFE1D2;
+    border-radius: 10px;
+    margin-left: -50px;
+    border-color: transparent;
+}
+#loginbutton {
+    position: relative;
+    width: 150px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: white;
+}
+
+#signup {
+    position: relative;
+    width: 100px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#globebutton {
+    position: relative;
+    width: 150px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 10px;
+    margin-top: 15px;
+    color: white;
+}
+#cart {
+    position: relative;
+    width: 150px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 10px;
+    margin-top: 17px;
+    color: white;
+}
+#frontpic {
+    position: absolute;
+    height: 190px;
+    width: 1190px;
+    background-image: url(frontpicpic.jpg);
+    background-size: cover;
+    top: 80px;
+    left: 0;
+    transform: skew(0deg);
+    animation: frontpicAnimation infinite ease-in-out 7s;
+}
+
+@keyframes frontpicAnimation {
+    from {
+        transform: skew(0deg);
+    }
+    to {
+        transform: skew(180deg);
+    }
+}
+
+#itemsection{
+    position: absolute;
+    height:1500px;
+    left:0px;
+    top:280px;
+    width:1190px;
+    background-color:white;
+}
+#footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    height: 250px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(70, 67, 67);
+}
+#footersectionabout{
+    margin: 0px;
+    position: absolute;
+    top:5px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h2,p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+#footersectioncontact {
+    margin: 0px;
+    position: absolute;
+    display: inline-block;
+    top:90px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#footersectionsocial {
+    margin: 0px;
+    position: absolute;
+    top:160px;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: black;
+}
+#laptopandgadgets{
+    position:absolute;
+    height:300px;
+    width:200px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    top:50px;
+    left:20px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag1{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view1{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#homeandfitness{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:50px;
+    left:250px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag2{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view2{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#beautytools{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:50px;
+    left:500px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag3{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view3{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#refrigerator{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:50px;
+    left:720px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag4{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view4{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#juicer{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:50px;
+    left:940px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag5{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view5{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#icecreamsticks{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:380px;
+    left:0px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag6{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view6{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#cooler{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:380px;
+    left:220px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag7{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view7{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#sandwichmaker{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:380px;
+    left:450px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag8{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view8{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#sewingmachine{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:380px;
+    left:680px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag9{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view9{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#handblender{
+    position:absolute;
+    height:300px;
+    width:200px;
+    top:380px;
+    left:920px;
+    text-align: center;
+    border: transparent;
+    display: flex;
+    flex-direction: column;
+}
+#tag10{
+    position:absolute;
+    height:49px;
+    width:200px;
+    color: rgb(69, 67, 67);
+    font-size: 15px;;
+    background-color:white;
+    bottom:20px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+#view10{
+    position: absolute;
+    border-radius: 10px;
+    text-align: center;
+    color: rgb(230, 230, 237);
+    height: 25px;
+    width: 200px;
+    background-color: rgb(234, 105, 30); /* Change the color values as needed */
+    bottom:0px;
+    border-color: transparent;
+}
+#darazpic {
+    position: absolute;
+    display: block;
+    height: 500px;
+    width: 1190px;
+    background-image: url(darazpic.webp);
+    background-size: cover;
+    top: 700px;
+    left: 0;
+    animation: darazpicAnimation infinite ease-in-out 3s;
+}
+
+@keyframes darazpicAnimation {
+    0% {
+        width: 1190px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        width: 595px; /* Half the original width */
+        opacity: 0.5;
+        transform: translateY(50px);
+    }
+    100% {
+        width: 0px;
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
+
+
