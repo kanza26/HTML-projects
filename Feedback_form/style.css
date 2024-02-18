@@ -1,0 +1,81 @@
+/* Body styling with background image */
+body {
+    background-color: antiquewhite;
+    background-image: url("logo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}
+
+/* Container styling */
+#container {
+    position: relative;
+    height: 100px;
+    width: 1290px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    bottom: 10px;
+}
+
+/* Styling for container item 1 with hover effect */
+#containeritem1 {
+    display: inline-block;
+    background-image: url(logo.webp);
+    background-size: cover;
+    height: 90px;
+    width: 100px;
+    position: relative;
+    margin-left: 0;
+    border: 5px solid black;
+    border-radius: 50%;
+    top: 5px;
+    transition: width 3s, height 3s, transform 3s;
+}
+
+#containeritem1:hover {
+    height: 150px;
+    width: 150px;
+    transform: rotate(360deg) translate(20px, 20px);
+}
+
+/* Styling for container item 2 with hover effect */
+#containeritem2 {
+    position: relative;
+    display: inline-block;
+    height: 45px;
+    width: 800px;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 35px;
+    top: 40px;
+    background-color: #202122;
+    color: #fff;
+    transition: all 1s ease-in;
+}
+
+#containeritem2:hover {
+    background-color: #5659ef;
+    color: black;
+    font-size: 40px;
+    width: 1000px;
+}
+
+/* Styling for suggestion elements */
+#suggestion {
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+#suggestionlabel {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Button styling */
+button {
+    margin-left: 1000px;
+    text-decoration:none;
+}
+
